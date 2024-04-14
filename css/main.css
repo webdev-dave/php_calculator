@@ -1,12 +1,21 @@
-form.calculator {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    column-gap: 5px;
-    margin-top: 5%;
+div.calculator {
+    width: 60%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 6% auto 0;
 }
 
-form.calculator > * {
+form.input-form {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px dotted black;
+}
+
+form.input-form > * {
     display: flex;
     flex-direction: column;
 
